@@ -13,12 +13,22 @@
     --shadow-dark-1: 0 2rem 5rem rgba(0, 0, 0, 0.934);
     --font-primary: 'Nunito', sans-serif;
     --font-display: 'Josefin sans', sans-serif;
+
+    
+    /* --bp-largest: 76em; or 1200px   */
+    /* --bp-large: 62.5em; or 900px */
 }
 
 html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+@media only screen and (max-width:76em) {
+    html {
+      font-size: 50%;
+    }
+}
+
 
 body {
 font-family: var(--font-primary);

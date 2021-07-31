@@ -70,7 +70,7 @@ const Nexter = () => {
             </header>
 
             <div className="realtors">
-                <h3 className="heading-3"> Top 3 Realtors </h3>
+                <h3 className="heading-3 realtor_heading"> Top 3 Realtors </h3>
                 <div className="realtors_list">
                     <img src={realtor1} alt="realtor 1" className="realtor_img" />
                     <div className="realtors_details"> 
