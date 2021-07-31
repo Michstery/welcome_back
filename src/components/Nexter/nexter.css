@@ -129,7 +129,7 @@ justify-content: center;
     width: 7rem;
     border-radius: 50%;
 }
-.realtor_details{}
+
 .realtors_sold{
     text-transform: uppercase;
     color: var(--color-grey-light-2);
@@ -202,9 +202,6 @@ justify-content: center;
     line-height: 2.5rem;
 }
 /* //////////////////////////// STORY  /////////////////////////////////////////////////////////////// */
-.story{
-    
-}
 
 
 
@@ -343,9 +340,7 @@ grid-row-gap: 3.5rem;
 
     transform: translateY(50%);
 }
-.home_location img, .home_rooms img {
-    /* margin-top: 2.5rem; */
-}
+
 
 .home_location, .home_rooms, .home_area, .home_price {
     font-size: 1.5rem;
@@ -364,15 +359,8 @@ grid-row-gap: 3.5rem;
     height: 2rem;
     width: 2rem;
 }
-.home_rooms {
 
-}
-.home_area{
 
-}
-.home_price{
-
-}
 .home_btn{
 grid-column: 1/-1;
 }
@@ -391,9 +379,7 @@ grid-column: 1/-1;
     margin: 0;
 }
 
-.gallery_item{
- /* width: 100%; */
-}
+
 
 .gallery_item-1{
  grid-row: 1/ span 2;
@@ -499,9 +485,7 @@ grid-column: 1/-1;
  grid-gap: 1.1rem;
  align-items: center;
 }
-.nav_item {
 
-}
 .nav_link:link, .nav_link:visited{
     font-size:1.3rem;
     color:#fff;
